@@ -10,27 +10,36 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    :hover {
-      background-color: $color-11-light;
+    &.default {
+      background-color: $color-theme11;
+      &:hover {
+        background-color: lighten($color-theme11, 25%);
+      }
+    }
+    &.error {
+      background-color: $color-theme9;
+      &:hover {
+        background-color: lighten($color-theme9, 25%);
+      }
+    }
+    &.info {
+      background-color: $color-theme1;
+      &:hover {
+        background-color: lighten($color-theme1, 25%);
+      }
+    }
+    &.success {
+      background-color: $color-theme10;
+      &:hover {
+        background-color: lighten($color-theme10, 25%);
+      }
+    }
+    &.warning {
+      background-color: $color-theme2;
+      &:hover {
+        background-color: lighten($color-theme2, 25%);
+      }
     }
   }
   
-  .default {
-    background-color: $color-theme11;
-  }
   
-  .error {
-    background-color: $color-theme9;
-  }
-  
-  .info {
-    background-color: $color-theme1;
-  }
-  
-  .success {
-    background-color: $color-theme10;
-  }
-  
-  .warning {
-    background-color: $color-theme2;
-  }
