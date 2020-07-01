@@ -490,21 +490,21 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
   max-width: 100%;
+  margin-top: 10px;
   max-height: 100%; }
 
-/* line 14, ../../../../../Users/melissalaree/Documents/GitHub/treehouse04-styleguide/scss/components/_images.scss */
+/* line 11, ../../../../../Users/melissalaree/Documents/GitHub/treehouse04-styleguide/scss/components/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
   max-width: 100%;
+  margin-top: 10px;
   padding: 13px;
   border: 1px solid #ccc; }
 
-/* line 24, ../../../../../Users/melissalaree/Documents/GitHub/treehouse04-styleguide/scss/components/_images.scss */
+/* line 18, ../../../../../Users/melissalaree/Documents/GitHub/treehouse04-styleguide/scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;

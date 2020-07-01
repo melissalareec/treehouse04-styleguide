@@ -1,0 +1,8 @@
+@mixin img-display($dis: block, $m-left: auto, $m-right:auto, $max-w:null) {
+    display: $dis;
+    margin-left: $m-left;
+    margin-right: $m-right;
+    max-width: $max-w;
+  }
+
+ 
