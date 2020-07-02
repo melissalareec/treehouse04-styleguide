@@ -10,52 +10,10 @@
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
-    .theme.col-1 {
-      background-color: $color-theme1;
-    }
-    
-    .theme.col-2 {
-      background-color: $color-theme2;
-    }
-    
-    .theme.col-3 {
-      background-color: $color-theme3;
-    }
-    
-    .theme.col-4 {
-      background-color: $color-theme4;
-    }
-    
-    .theme.col-5 {
-      background-color: $color-theme5;
-    }
-    
-    .theme.col-6 {
-      background-color: $color-theme6;
-    }
-    
-    .theme.col-7 {
-      background-color: $color-theme7;
-    }
-    
-    .theme.col-8 {
-      background-color: $color-theme8;
-    }
-    
-    .theme.col-9 {
-      background-color: $color-theme9;
-    }
-    
-    .theme.col-10 {
-      background-color: $color-theme10;
-    }
-    
-    .theme.col-11 {
-      background-color: $color-theme11;
-    }
-    
-    .theme.col-12 {
-      background-color: $color-theme12;
+    @for $i from 1 through 12 {
+      .theme.col-#{$i} {
+        background-color: nth($theme-colors, $i);			
+      }
     }
   }
   
